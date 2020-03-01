@@ -1,0 +1,83 @@
+* {
+  font-family: 'Roboto', ;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+}
+
+p {
+  color: #7d7c79;
+  margin: 0 0 24px 0;
+
+}
+h4 {
+  font-family: 'Oswald';
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* banner start */
+#banner {
+  margin-bottom: 30px;
+}
+.text-orange {
+  color: #f25f43;
+}
+.banner-text h1 {
+  line-height: 1.2;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.banner-text p {
+  color: #333333;
+}
+/* banner end */
+
+/* monster start */
+.monster-img img {
+  width: 100%;
+}
+.monster-right-text {
+  padding: 30px 0;
+}
+.monster-right-text p {
+  margin-bottom: 0;
+}
+/* monster end */
+/* offer start */
+.offer-right-text p {
+  margin-bottom: 0;
+}
+.delivery-left-text p,
+.delivery-right-text p {
+  margin-bottom: 0;
+}
+/* offer end */
+.accordion p {
+  margin-bottom: 0;
+}
+.testimonial {
+  border: 15px solid #ededed;
+  padding: 150px 80px;
+}
+.testimonial h4 {
+  font-size: 30px;
+}
+#contactInfo h4 {
+  margin-bottom: 10px;
+}
+#contactInfo p {
+  margin-bottom: 0;
+}
